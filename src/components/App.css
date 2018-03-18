@@ -38,7 +38,7 @@ body {
 #navbar {
     display: flex;
     justify-content: space-around;
-    margin: 5px;
+    padding: 5px;
     border-bottom: 2px solid darkgray;
 }
 
