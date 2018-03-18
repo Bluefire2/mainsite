@@ -38,19 +38,23 @@ body {
 #navbar {
     display: flex;
     justify-content: space-around;
+    margin: 5px;
+    border-bottom: 2px solid darkgray;
 }
 
 #navbar .navbar-link, #navbar #navbar-name {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     flex: 1;
-    font-size: 150%;
+    font-size: 200%;
     color: #6b6b6b;
 }
 
 #navbar .navbar-link {
     background-color: inherit;
     transition: background-color 0.5s ease, color 0.5s ease;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #navbar .navbar-link:hover {
