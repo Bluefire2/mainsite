@@ -6,8 +6,8 @@ import './index.css';
 import App from './components/App';
 import reducers from './reducers';
 import registerServiceWorker from './registerServiceWorker';
-import {Router} from 'react-router'
-import createBrowserHistory from 'history/createBrowserHistory'
+import {Router} from 'react-router';
+import createBrowserHistory from 'history/createBrowserHistory';
 
 const history = createBrowserHistory();
 
