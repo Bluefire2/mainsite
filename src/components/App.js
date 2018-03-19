@@ -3,10 +3,10 @@ import {BrowserRouter, Route} from 'react-router-dom';
 import createBrowserHistory from 'history/createBrowserHistory';
 import './App.css';
 import Navbar from '../containers/navbar';
-import Index from './index.js';
-import About from './about.js';
-import Work from './work.js';
-import Contact from './contact.js';
+import Index from './index';
+import About from './about';
+import Work from './work';
+import Contact from './contact';
 
 const history = createBrowserHistory();
 
