@@ -1,8 +1,10 @@
 #navbar {
     display: flex;
     justify-content: space-around;
-    padding: 5px;
     border-bottom: 2px solid darkgray;
+    /*width: 80%;*/
+    /*margin: 0 auto;*/
+    padding: 5px 10%;
 }
 
 #navbar .navbar-link, #navbar #navbar-name {
