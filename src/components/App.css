@@ -31,3 +31,9 @@
     background-color: #828283;
     color: white;
 }
+
+#content {
+    margin: 10%;
+    padding: 40px;
+    border: 2px dashed darkgrey;
+}
