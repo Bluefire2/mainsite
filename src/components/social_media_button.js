@@ -2,11 +2,11 @@ import React from 'react';
 
 export default ({icon, username, link}) => {
     return (
-        <div id="sm-button">
-            <a href={link}>
+        <a href={link} className="sm-button-link">
+            <div className="sm-button">
                 <img src={icon} alt=""/>
-                {username}
-            </a>
-        </div>
+                <span className="username">{username}</span>
+            </div>
+        </a>
     );
 };
