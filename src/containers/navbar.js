@@ -8,6 +8,9 @@ class Navbar extends Component {
             <div id="navbar">
                 <div id="navbar-name">
                     {Constants.name}
+                    <span id="navbar-source-link">
+                        <a href={Constants.sourceRepoUrl}>source</a>
+                    </span>
                 </div>
                 {Object.entries(Constants.navbarLinks).map(kv => {
                     const [title, path] = kv;
