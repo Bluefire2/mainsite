@@ -36,8 +36,8 @@ class Contact extends Component {
                     Contact me for work opportunities!
                 </div>
                 <div className="right">
-                    {smButtons.map(elem => {
-                        return <SocialMediaButton {...elem}/>
+                    {smButtons.map((elem, index) => {
+                        return <SocialMediaButton key={index} {...elem}/>
                     })}
                 </div>
             </div>
