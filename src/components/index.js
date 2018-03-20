@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import loremIpsum from 'lorem-ipsum';
 
 class Index extends Component {
     render() {
         return (
             <div id="index">
-                Index stuff goes here
+                {loremIpsum({count: 5, units: 'paragraphs'})}
             </div>
         );
     }
