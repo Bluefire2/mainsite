@@ -31,7 +31,7 @@ class Contact extends Component {
             }
         ];
         return (
-            <div id="contact" className="wrap">
+            <div id="contact" className="wrap route-component">
                 <div className="left">
                     Contact me for work opportunities!
                 </div>

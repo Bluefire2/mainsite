@@ -44,7 +44,7 @@ a:hover {
     color: white;
 }
 
-#content {
+#content .route-component {
     margin: 10%;
     padding: 40px;
     border: 2px dashed darkgrey;
